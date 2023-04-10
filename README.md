@@ -1,4 +1,4 @@
-# todo-list
+# IMD
 
  Projeto desenvolvido no decorrer das aulas do IMD 2023
 
