@@ -8,6 +8,6 @@ const PORT = process.env.PORT || 3333;
 app.use(express.json());
 app.use('/', routesAPI);
 
-app.use('/public', express.static('tmp'));
+app.use('/public', express.static(path.resolve(__dirname, 'tmp')));
 
 app.listen(PORT, console.log(`SERVER START IN PORT: ${PORT}`));
