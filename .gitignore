@@ -1,0 +1,11 @@
+*.log
+npm-debug.log*
+
+.npm
+.eslintcache
+
+
+build/
+node_modules/
+
+tmp/**/*.*
